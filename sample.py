@@ -1,6 +1,6 @@
-def addition(x,y,z=None):
+def addition(x,y,a,z=None):
     if(z==None):
-     return x+y
+     return x+y+a
     else:
-     return x+y+z
+     return x+y+z+a
 
